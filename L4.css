@@ -1,0 +1,145 @@
+.container {
+width: 320px;
+height: 1024px;
+margin: 0;
+padding: 0;
+box-shadow:  20px 0 50px 0 rgba(192, 192, 192, 0.5);
+display: flex;
+flex-direction: column;
+font-family: "TT Lakes", "Gill Sans", sans-serif;
+font-style: medium;
+font-size: 16px;
+line-height: 24px;
+}
+
+.icons-top {
+display: flex;
+margin-top: 15px;
+margin-bottom: 0px;
+line-height: 0px;
+}
+
+.icons-top__left {
+display: flex;
+justify-content: start;
+align-items: center;
+}
+
+.icons-top__right {
+width: 100%;
+display: flex;
+justify-content: flex-end;
+align-items: center;
+}
+
+.icon {
+background: #FF3E79;
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+.icons-top__exit {
+background-image: url("icon.svg");
+background-repeat: no-repeat;
+background-position: center;
+margin-left: 24px;
+}
+
+.icons-top__exit:hover {
+opacity: 0.3;
+}
+
+.icons-top__Groop {
+background-image: url("Group.svg");
+width: 97px;
+height: 51px;
+margin-left: 24px;
+}
+
+
+.icons-top__search {
+background-image: url("icon2.svg");
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 24px;
+}
+
+.icons-top__search:hover {
+opacity: 0.3;
+
+} 
+
+.icons-bottom__phone {
+background-image: url("icon3.svg");
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 24px;
+}
+
+.icons-bottom__phone:hover {
+opacity: 0.3;
+
+}
+
+.icons-bottom__message {
+background-image: url("icon4.svg");
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 24px;
+}
+
+.icons-bottom__message:hover {
+opacity: 0.3;
+
+}
+
+.icons-bottom__contacts {
+background-image: url("Group22.svg");
+background-repeat: no-repeat;
+background-position: center;
+margin-right: 24px;
+}
+
+.icons-bottom__contacts:hover {
+opacity: 0.3;
+
+}
+
+.icons-bottom {
+display: flex;
+}
+
+.contacts-information {
+margin-top: auto;
+margin-left: 24px;
+}
+
+.menu {
+margin-left: 24px;
+margin-top: 50px;
+}
+
+.contacts__phone {
+font-weight: bold;
+font-size: 24px;
+margin-bottom: 50px;
+}
+
+.Equipment-repair {
+color: #7E7E82;
+}
+
+.forein-language {
+font-weight: bold;
+}
+
+.square {
+width: 4px;
+height: 32px;
+background: #41F6D7;
+border-top-right-radius: 5px;
+border-bottom-right-radius: 5px;
+position: absolute;
+transform: translateX(-24px);
+}
